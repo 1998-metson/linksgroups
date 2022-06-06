@@ -1,10 +1,262 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <title>LinksGroups</title>
-  <meta charset="utf-8"/>
-</head>
-<body>
-  <h1>Funcionando:)</h1>
-</body>
+	<head>
+		<title>curadoria de dados</title>
+		<meta charset="utf-8"/>
+		<style>
+			section table{
+				border-collapse:collapse;
+				margin-top:20px;
+			}
+			section table tr th, td{
+				border:1px solid #ccc;
+				padding:5px;
+			}
+			<!--  -->
+			*{font-family:arial;}
+			body{width:100vw;}
+			header{
+				display:flex;
+				flex-flow:row wrap;
+				
+				width:100%;
+				border-bottom:1px solid #ccc;
+				padding-bottom:20px;
+			}
+			header span{
+				width:100%;
+				border-bottom:1px solid #ccc;
+				margin-bottom:15px;
+				text-align:center;
+			}
+			header div:nth-of-type(1){
+				display:block;
+				width:65%;
+			}
+			header div:nth-of-type(2){
+				width:35%;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<header>
+			<span>
+			<h1>CURADORIA DE DADOS</h1>
+			<p>Inserção de links, atualização de dados antes de ir para o site</p>
+			</span>
+			<div>
+				<!-- AQUI HAVERÁ UM INPUT DE TEXTO CUJA FUNÇÃO SERÁ...-->
+				<!--...ao inserir o link e clicar ENTER, tal link será inserido na tabela. -->
+				<form>
+					<label>INSIRA UM NOVO LINK NA TABELA:<br><textarea rows="4" cols="50" type="text"></textarea></label>
+					<input type="submit" value="Inserir">
+				</form>
+			</div>
+			<div>
+				<!-- AQUI HAVERÁ UM BOTÃO CUJA FUNÇÃO SERÁ...-->
+				<!--...partindo do link adicionado, o JS deverá buscar os outros 4 dados(exceto "EtiquetaGrupo").-->
+				<!-- DETALHE: os links expirados ficarão com sua linha vermelha aguardando exclusão manual. -->
+				<button>ATUALIZAR DADOS DOS LINKS DA TABELA</button>
+			</div>
+		</header>
+		<section>
+			<table>
+				<caption>LISTA DE DADOS</caption>
+				<thead>
+					<tr>
+						<th>RedeSocial</th>
+						<th>LinkGrupo</th>
+						<th>NomeGrupo</th>
+						<th>ImagemGrupo</th>
+						<th>DescricaoGrupo</th>
+						<th>TotalMembrosGrupo</th>
+						<th>CategoriaGrupo</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+			<form>
+				<label>Data de Envio:<input type="date" required></label>
+				<label>Hora de Envio:<input type="time" required></label>
+				
+				<input type="submit" value="ENVIAR PARA PHP">
+			</form>
+			<article>
+				<!-- Histórico de envios para PHP -->
+			</article>
+		</section>
+	</body>
 </html>
